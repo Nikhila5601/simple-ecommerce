@@ -1,12 +1,12 @@
-import { useEffect, useState, useContext } from "react";
-import { useNavigate } from "react-router-dom";
-import { TbSearch } from "react-icons/tb";
-import { CgShoppingCart } from "react-icons/cg";
+import { useContext, useEffect, useState } from "react";
 import { AiOutlineHeart } from "react-icons/ai";
-import "./Header.scss";
-import Search from "./Search/Search";
+import { CgShoppingCart } from "react-icons/cg";
+import { TbSearch } from "react-icons/tb";
+import { useNavigate } from "react-router-dom";
 import { Context } from "../../utils/context";
 import Cart from "../Cart/Cart";
+import Search from "../Header/Search/Search.jsx";
+import "./Header.scss";
 
 const Header = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -39,7 +39,7 @@ const Header = () => {
                         <li>Categories</li>
                     </ul>
                     <div className="center" onClick={() => navigate("/")}>
-                        JSDEVSTORE.
+                        Maker Mart
                     </div>
                     <div className="right">
                         <TbSearch onClick={() => setSearchModal(true)} />

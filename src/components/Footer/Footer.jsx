@@ -1,7 +1,7 @@
 import React from "react";
-import "./Footer.scss";
-import { FaLocationArrow, FaMobileAlt, FaEnvelope } from "react-icons/fa";
+import { FaEnvelope, FaLocationArrow, FaMobileAlt } from "react-icons/fa";
 import Payment from "../../assets/payments.png";
+import "./Footer.scss";
 const Footer = () => {
     return (
         <div className="footer">
@@ -30,7 +30,7 @@ const Footer = () => {
                     </div>
                     <div className="c-item">
                         <FaEnvelope />
-                        <div className="text">Email: store@jsdev.com</div>
+                        <div className="text">Email: store@Maker Mart.com</div>
                     </div>
                 </div>
                 <div className="col">
@@ -55,7 +55,7 @@ const Footer = () => {
             <div className="bottom-bar">
                 <div className="bottom-bar-content">
                     <span className="text">
-                        JSDEVSTORE 2022 CREATED BY JS DEV. PREMIUM E-COMMERCE
+                        Maker MartSTORE 2022 CREATED BY JS DEV. PREMIUM E-COMMERCE
                         SOLUTIONS.
                     </span>
                     <img src={Payment} />
