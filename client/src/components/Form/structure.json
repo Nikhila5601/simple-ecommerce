@@ -1,0 +1,20 @@
+[
+    {
+        "name": "username",
+        "type": "string",
+        "description": "Name of the User",
+        "isRequired": true
+    },
+    {
+        "name": "password",
+        "type": "string",
+        "description": "Password of the User",
+        "isRequired": true
+    },
+    {
+        "name":"email",
+        "type": "email",
+        "description":"Email Id of the User",
+        "isRequired":true
+    }
+]
